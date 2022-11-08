@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: 'src/components.ts',
+      entry: 'src/components/index.ts',
       name: 'FormkitTinymce'
     },
     rollupOptions: {
