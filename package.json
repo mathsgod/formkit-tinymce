@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "npm version patch && npm run build && npm publish"
   },
   "dependencies": {
     "@tinymce/tinymce-vue": "^4.0.7",

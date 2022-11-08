@@ -1,6 +1,6 @@
 # formkit-tinymce
 
-A plugins for formkit to add tinymce editor.
+A plugins of tinymce editor for formkit.
 
 ## Setup
 
@@ -20,6 +20,8 @@ export default config
 ```
 
 ## Usage
+
+Type: tinymce
 
 ```html
 <FormKit type="form" v-model="data">
