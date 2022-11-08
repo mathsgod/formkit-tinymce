@@ -21,7 +21,7 @@ export default config
 
 ## Usage
 
-Type: tinymce
+Custom type name: tinymce
 
 ```html
 <FormKit type="form" v-model="data">
