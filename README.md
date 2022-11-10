@@ -29,7 +29,7 @@ export default config
 ```typescript
 const app = createApp(App);
 import { plugin, defaultConfig } from '@formkit/vue'
-import { createTinymcePlugin } from './components'
+import { createTinymcePlugin } from 'formkit-tinymce'
 
 app.use(plugin, defaultConfig({
     plugins: [createTinymcePlugin()]
