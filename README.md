@@ -10,7 +10,6 @@ A plugins of tinymce editor for formkit.
 2. Create formkit.config.ts
 ```typescript
 import { DefaultConfigOptions } from '@formkit/vue'
-
 import { createTinymcePlugin } from 'formkit-tinymce'
 
 const config: DefaultConfigOptions = {
