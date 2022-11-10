@@ -14,9 +14,10 @@ import { DefaultConfigOptions } from '@formkit/vue'
 import { createTinymcePlugin } from 'formkit-tinymce'
 
 const config: DefaultConfigOptions = {
-    plugins: [createTinymcePlugin()] // You can provide api key option here
+    plugins: [createTinymcePlugin()] // You can provide you tinymce api key here
+    // createTinymcePlugin({apiKey: 'YOUR_API_KEY'})
 }
-// createTinymcePlugin({apiKey: 'YOUR_API_KEY'})
+
 
 export default config
 ```
