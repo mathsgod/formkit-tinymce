@@ -27,5 +27,5 @@ props.context.classes.inner = "";
 </script>
 
 <template>
-    <editor v-model="value" v-bind="context.attrs" ref="tinymce" />
+    <editor v-model="value" v-bind="context.attrs" ref="tinymce" :api-key="context.apiKey"/>
 </template>

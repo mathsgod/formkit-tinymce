@@ -4,20 +4,37 @@ A plugins of tinymce editor for formkit.
 
 ## Setup
 
-Create formkit.config.ts
+### Nuxt
+
+1. npm install @formkit/nuxt
+2. Create formkit.config.ts
 ```typescript
 import { DefaultConfigOptions } from '@formkit/vue'
 
-import * as FormkitTinymce from 'formkit-tinymce'
+import { createTinymcePlugin } from 'formkit-tinymce'
 
 const config: DefaultConfigOptions = {
-    inputs: {
-        ...FormkitTinymce,
-    }
+    plugins: [createTinymcePlugin()] // You can provide api key option here
 }
+// createTinymcePlugin({apiKey: 'YOUR_API_KEY'})
 
 export default config
 ```
+
+### Vue
+
+1. npm install @formkit/vue
+2. Setup in main.ts
+```typescript
+const app = createApp(App);
+import { plugin, defaultConfig } from '@formkit/vue'
+import { createTinymcePlugin } from './components'
+
+app.use(plugin, defaultConfig({
+    plugins: [createTinymcePlugin()]
+}))
+```
+
 
 ## Usage
 
