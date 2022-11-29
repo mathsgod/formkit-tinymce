@@ -21,6 +21,9 @@
     "vite": "^3.1.0",
     "vue-tsc": "^0.40.4"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "module": "./dist/formkit-tinymce.js"
 }
