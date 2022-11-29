@@ -4,7 +4,7 @@ import App from './App.vue'
 import { plugin, defaultConfig } from '@formkit/vue'
 
 const app = createApp(App);
-import { createTinymcePlugin } from './components'
+import { createTinymcePlugin } from '.'
 
 app.use(plugin, defaultConfig({
     plugins: [createTinymcePlugin()]

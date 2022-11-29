@@ -1,5 +1,5 @@
 import { FormKitPlugin } from '@formkit/core';
-import tinymce from './tinymce.vue'
+import tinymce from './components/tinymce.vue'
 import { createInput } from '@formkit/vue'
 
 interface PluginOption {
