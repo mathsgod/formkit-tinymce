@@ -10,7 +10,7 @@
     "release": "npm version patch && npm run build && npm publish"
   },
   "dependencies": {
-    "@tinymce/tinymce-vue": "^4.0.7",
+    "@tinymce/tinymce-vue": "^5.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
@@ -22,5 +22,5 @@
     "vue-tsc": "^0.40.4"
   },
   "license": "MIT",
-  "module": "dist/formkit-tinymce.js"
+  "module": "./dist/formkit-tinymce.js"
 }
