@@ -1,6 +1,7 @@
 # formkit-tinymce
 
 A plugins of tinymce editor for formkit.
+The plugins is dependents on '@tinymce/tinymce-vue', '@formkit/vue', please install them first.
 
 ## Setup
 

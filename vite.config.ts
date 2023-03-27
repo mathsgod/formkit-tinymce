@@ -13,7 +13,7 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['vue', '@tinymce/tinymce-vue'],
+      external: ['vue', '@tinymce/tinymce-vue', '@formkit/core', '@formkit/vue'],
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps

@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from "vue"
+import { ref, watch } from "vue"
 import editor from '@tinymce/tinymce-vue'
 let tinymce = ref(null);
 const props = defineProps({
