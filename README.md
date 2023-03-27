@@ -56,7 +56,6 @@ Custom type name: tinymce
            alignleft aligncenter alignright alignjustify | \
            bullist numlist outdent indent | removeformat | help'
       }" />
-    </FormKit>
 </FormKit>
 
 ```
